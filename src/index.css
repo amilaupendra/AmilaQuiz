@@ -146,7 +146,7 @@ header {
 
 }
 .about-image{
-	background-color: rgb(40, 71, 77);
+	background-size: 200%;
 	text-align: center;
     display: block;
     justify-content: center;
@@ -341,7 +341,7 @@ form textarea:focus {
 }
 
 .reg-container{
-	background-color: rgb(24, 54, 54);
+	background-size: 200%;
 	text-align: center;
     display: block;
     justify-content: center;
@@ -354,8 +354,10 @@ form textarea:focus {
 	border: 5px solid gray;
  
 }
+
+
 .contactus{
-	background-color: rgb(24, 54, 54);
+	background-size: 200%;
 	text-align: center;
     display: block;
     justify-content: center;
@@ -364,7 +366,7 @@ form textarea:focus {
     width: 100%;
 	color: white;
 	border-radius: 10px;
-	padding: 30px;
+	padding: 0px;
 	border: 5px solid gray;
 }
 

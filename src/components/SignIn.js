@@ -1,56 +1,54 @@
 import React from 'react'
-import facebook from "../img/facebook.png";
-import linkedin from "../img/linkedin.png";
-import youtube from "../img/youtube.png";
-import insta from "../img/insta.png";
+import allbg from "../img/allbg.jpg";
 import bg from "../img/bg.png";
+import googleplay from "../img/googleplay.png";
+import appstore from "../img/appstore.png";
+import Logo from '../img/logo1.png';
 
 function SignIn() {
     return (
-        <div className="contactus">
+        <div className="contactus"style={{backgroundImage: 'url('+allbg+')'}}> 
             <div className="bg">
                     <img src={bg} height="20%" width="20%" alt="img1"/>
              </div>
-            <div className="">
-                <h4>Contact Us</h4>
-                <br/>
-                <h5>Our Address</h5>
-                    <address>
-                        No :460/2<br />
-                        Mankada Road<br />
-                        Kadawatha.<br />
-                        <i className="fa fa-phone"></i>: +94 77 198 5367<br />
-                        
-                        <i className="fa fa-envelope"></i>: <a href="shonalinethmika998@gmail.com">shonalinethmika998@gmail.com</a>
-                    </address>
+             <footer>
+			<div className="footer-container" >
+			<div className="right-menu">
+				<div className="logo">
+						<img src={Logo} alt="Logo" />
+					</div>
+					
+				</div>
+				<div className="left-menu">
+					
+					<hr/>
                 
+                    <address>
+						Q-Smart<br/>
+						A.M.A.U.Adhikari<br/>
+                        No :465/1,<br />
+                        Nadalagamuwa dakuna<br />
+                        Wadumunnegedara.<br />
+                        <i className="fa fa-phone"></i>: +94 705988366<br />
+                        <i className="fa fa-envelope"></i>: <a href="amilaupendra5@gmail.com">amilaupendra5@gmail.com</a>
+						<br/>
+						<br/>
+                    </address>
+					<br/>
+					<br/>
+				</div>
+				
+					<div className="logo1">
+						<img src={googleplay} alt="Logo" width="60%" height="10%" />
+					</div>
+					<div className="logo1">
+						<img src={appstore} alt="Logo" width="110%" height="10%" />
+					</div>
+				
+				
             </div>
-            <div className=" ">
-                    <h5>Social Media Links</h5>
-                    <br/>
-            <br/>
-            <h2 className="aboutus-h1-1"> SOCIAL MEDIA</h2>
+			</footer>
             
-            <img src={facebook} height="50px" width="50px" alt="img1"></img>
-            {/*<p background color="black"><a  href ="https://www.facebook.com/CsupFB/"> facebook</a></p>*/}
-            <br/>
-            <br/>
-
-            <img src={linkedin} height="50px" width="50px" alt="img1"></img>
-            {/*<p background color="black"><a href ="https://www.linkedin.com/company/computer-society-university-of-peradeniya-csup/mycompany/"> <t/> linkedin</a></p>*/}
-            <br/>
-            <br/>
-
-            <img src={youtube} height="50px" width="50px" alt="img1"></img>
-            {/*<p background color="black"><a href ="https://www.youtube.com/c/CSUPComputerSocietyUniversityofPeradeniya"> <t/> youtube</a></p>*/}
-            <br/>
-            <br/>
-            <img src={insta} height="50px" width="50px" alt="img1"></img>
-            {/*<p background color="black"><a href ="https://www.instagram.com/csup_insta/"> <t/> Instagram</a></p>*/}
-            <br/>
-            <br/>
-                    
-                </div>
         </div>
     )
 }

@@ -16,7 +16,7 @@ function NewBlog() {
 				<p class="font-weight-bold">choose subject</p>
 
   				<select class="mdb-select md-form" searchable="Search here..">
-    			<option value="" disabled selected>Choose your quiz</option>
+    			<option value="" disabled selected>Choose your subject</option>
     			<option value="1">English</option>
     			<option value="2">Mathematics</option>
     			<option value="3">Science</option>

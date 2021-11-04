@@ -1,10 +1,12 @@
 import React, { Button } from 'react'
-
-
+import allbg from "../img/allbg.jpg";
+import googleplay from "../img/googleplay.png";
+import appstore from "../img/appstore.png";
+import Logo from '../img/logo1.png';
 
 function Registration() {
     return (
-        <div className="reg-container">
+        <div className="reg-container" style={{backgroundImage: 'url('+allbg+')'}}>
             
 
             <h2>Registration For Our services </h2>
@@ -32,21 +34,43 @@ function Registration() {
 				<button>Register Now</button>
 			</form>
 
-			<div className="contactus-new">
-                <hr/>
-                <h4>Contact Us</h4>
-                <br/>
-                <h5>Our Address</h5>
-                    <address>
-                        No :460/2<br />
-                        Mankada Road<br />
-                        Kadawatha.<br />
-                        <i className="fa fa-phone"></i>: +94 77 198 5367<br />
-                        
-                        <i className="fa fa-envelope"></i>: <a href="shonalinethmika998@gmail.com">shonalinethmika998@gmail.com</a>
-                    </address>
+			<footer>
+			<div className="footer-container" >
+			<div className="right-menu">
+				<div className="logo">
+						<img src={Logo} alt="Logo" />
+					</div>
+					
+				</div>
+				<div className="left-menu">
+					
+					<hr/>
                 
+                    <address>
+						Q-Smart<br/>
+						A.M.A.U.Adhikari<br/>
+                        No :465/1,<br />
+                        Nadalagamuwa dakuna<br />
+                        Wadumunnegedara.<br />
+                        <i className="fa fa-phone"></i>: +94 705988366<br />
+                        <i className="fa fa-envelope"></i>: <a href="amilaupendra5@gmail.com">amilaupendra5@gmail.com</a>
+						<br/>
+						<br/>
+                    </address>
+					<br/>
+					<br/>
+				</div>
+				
+					<div className="logo1">
+						<img src={googleplay} alt="Logo" width="60%" height="10%" />
+					</div>
+					<div className="logo1">
+						<img src={appstore} alt="Logo" width="110%" height="10%" />
+					</div>
+				
+				
             </div>
+			</footer>
         </div>
     )
 }
