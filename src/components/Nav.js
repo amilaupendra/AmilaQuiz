@@ -1,40 +1,41 @@
 import { Link } from 'react-router-dom';
-
+import allbg from "../img/allbg.jpg";
 import Logo from '../img/logo1.png';
 
 function Nav() {
 	return (
 		<header>
-			<div className="header-container">
+			<div className="header-container" style={{backgroundImage: 'url('+allbg+')'}}>
 				<div className="right-menu">
 					<div className="logo">
 						<img src={Logo} alt="Logo" />
 					</div>
-
-					<Link to="/">Creative Codes</Link>
+					
+					<Link to="/">Q-Smart</Link>
+					
 				</div>
 				<div className="left-menu">
 					<Link to="/">Home</Link>
 					<Link to="/create" className="button-container">
-						Add Order
+						Quiz
 					</Link>
 				</div>
 
 				<div className="left-menu">
 					<Link to="/about" className="button-container">
-						About Us
+						Leaderboard
 					</Link>
 				</div>
 
 				<div className="left-menu">
 					<Link to="/contact" className="button-container">
-						Contact Us
+						Sign in
 					</Link>
 				</div>
 
 				<div className="left-menu">
 					<Link to="/reg" className="button-container">
-						Registration
+						Sign up
 					</Link>
 				</div>
 			</div>

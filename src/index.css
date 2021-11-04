@@ -3,11 +3,28 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	color: rgb(0, 0, 0);
-	background-color: white;
+	background-color:rgb(45, 85, 92);
 }
 * {
 	box-sizing: border-box;
 }
+
+figcaption{
+	position :absolute;
+	bottom:40rem; 
+	color: #ffffff;
+	margin-top: 100%;
+	font-size: 4rem;
+	text-shadow:rgb(22, 22, 24) 3px 3px ;
+}
+
+.subjects{
+		
+	font-size: 2rem;
+	background-size: 200%;
+	background-position: bottom;
+}
+
 header {
 	background-color: #fff;
 	height: 70px;
@@ -24,12 +41,13 @@ header {
 	align-items: center;
 	padding: 0 25px;
 	justify-content: space-around;
-	background-color: rgb(40, 71, 71);
+	background-color: rgb(237, 243, 241);
 }
 .right-menu {
 	display: flex;
 	align-items: center;
 	flex: 1;
+	color: seashell;
 }
 .header-container .right-menu .logo {
 	height: 35px;
@@ -43,7 +61,7 @@ header {
 	font-weight: 700;
 	cursor: pointer;
 	text-decoration: none;
-	color: black;
+	color: rgb(235, 223, 223);
 }
 .left-menu {
 	display: flex;
@@ -55,7 +73,7 @@ header {
 	margin-left: 15px;
 	cursor: pointer;
 	text-decoration: none;
-	color: black;
+	color: rgb(241, 235, 235);
 }
 .left-menu .button-container {
 	display: flex;
@@ -128,7 +146,7 @@ header {
 
 }
 .about-image{
-	background-color: rgb(45, 85, 92);
+	background-color: rgb(40, 71, 77);
 	text-align: center;
     display: block;
     justify-content: center;
@@ -178,16 +196,22 @@ button:hover {
 	color: black;
 	text-align: center;
 }
+
+.add-post .footer-container{
+	background-color: rgba(237, 243, 241, 0.349);
+}
 .add-post {
+	background-size: 100%;
 	display: flex;
+	text-align: center;
 	flex-direction: column;
 	width: 100%;
 	margin: 0 auto;
-	background-color: rgb(24, 54, 54);
+	background-color: rgba(237, 243, 241, 0.349);
   	font-family: Georgia, 'Times New Roman', Times, serif;
   	color: #fff;
 	border-radius: 10px;
-	padding: 40px;
+	padding: 100x;
 	border-color: cadetblue;
 }
 
@@ -322,14 +346,16 @@ form textarea:focus {
 	
 }
 
-.logo-details-1{
-	background-color: rgb(24, 54, 54);
-	text-align: center;
-	color: #279599;
-	text-shadow: 0 0 50px rgb(55, 108, 133), 0 0 5px black;
-	
-	
+.quizhome{
+	interval: 1000;
+	background-color: rgb(12, 27, 27);
+	background-size: 100%;
 }
+
+
+
+
+
 .logo-details{
 	background-color: black;
 	text-align: center;
@@ -342,3 +368,70 @@ form textarea:focus {
   .bg{
 	  text-align: right;
   }
+
+  .feedback1{
+	background-color: rgba(168, 177, 177, 0.568);
+	text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+	color: white;
+	border-radius: 10px;
+	padding: 30px;
+	border: 5px solid gray;
+  }
+
+  .homefooter{
+	background-color: rgba(41, 155, 57, 0.562);
+	text-align: center;
+	background-size: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+	color: white;
+	border-radius: 10px;
+	padding: 30px;
+	border: 5px solid gray;
+
+}
+
+.footer-container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 0 25px;
+	justify-content: space-around;
+	background-color: rgba(237, 243, 241, 0.349);
+}
+
+.footer-container .right-menu .logo {
+	height: 150px;
+	margin-right: 10px;
+	width: 20%;
+	cursor: pointer;
+}
+.footer-container .right-menu .logo img {
+	height: 100%;
+}
+
+.footer-container .left-menu  {
+	margin-left: 700px;
+	cursor: pointer;
+	align-items:center;
+	text-decoration: none;
+	color: rgb(238, 230, 230);
+}
+
+
+.add-post .footer-container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 0 25px;
+	justify-content: space-around;
+	background-color: rgba(237, 243, 241, 0.349);
+}
