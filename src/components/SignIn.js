@@ -5,7 +5,7 @@ import youtube from "../img/youtube.png";
 import insta from "../img/insta.png";
 import bg from "../img/bg.png";
 
-function ContactUs() {
+function SignIn() {
     return (
         <div className="contactus">
             <div className="bg">
@@ -55,4 +55,4 @@ function ContactUs() {
     )
 }
 
-export default ContactUs
+export default SignIn ;

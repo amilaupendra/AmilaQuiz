@@ -6,7 +6,7 @@ import NewBlog from './components/NewBlog';
 import Blog from './components/Blog';
 import AboutUs from './components/AboutUs';
 import Registration from './components/Registration';
-import ContactUs from './components/ContactUs';
+import SignIn from './components/SignIn';
 
 function App() {
 	return (
@@ -31,7 +31,7 @@ function App() {
 				</Route>
 
 				<Route path="/contact">
-					<ContactUs />
+					<SignIn />
 				</Route>
 
 				<Route  path="/">

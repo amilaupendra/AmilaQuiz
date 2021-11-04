@@ -193,8 +193,42 @@ button:hover {
 	left: 0;
 	width: 100%;
 	background-color: #fff;
-	color: black;
+	color: rgb(99, 73, 73);
 	text-align: center;
+}
+
+.card-group{
+	width: 100%;
+	background-color: rgba(22, 44, 56, 0.411);
+	margin:1rem;
+	flex-direction: column;
+	padding: 25px;
+	display: flex;
+
+}
+.card-group .card{
+	align-items: center;
+	flex-direction:column;
+	padding-inline-end: rem;
+	display: flex;
+	border-color: #1f1d1d;
+	border-width: 3rem;
+	
+}
+.card-group .card .card-body{
+	background: rgba(237, 238, 238, 0);
+	border-radius: 50px;
+	align-items:center;
+	cursor: pointer;
+	
+	flex-direction: column;
+	color: rgb(10, 10, 10);
+	display: flex;
+	padding: 45px;
+	width: 80%;
+	height: 20px;
+	transition: transform 0.2s ease;
+	transform: scale(1.05);
 }
 
 .add-post .footer-container{

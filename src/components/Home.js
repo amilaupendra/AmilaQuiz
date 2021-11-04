@@ -82,13 +82,13 @@ function Home() {
 						<img src={quiz }  height="40%" width="10%" alt="img1"/>
 						 <a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a> <t/>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Mathematics Quiz... </a>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Science Quiz... </a>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> ICT Quiz... </a>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Commerce Quiz... </a>
 						
 						</h5>
 						</div>
@@ -100,13 +100,13 @@ function Home() {
 						<img src={quiz }  height="20%" width="10%" alt="img1"/>
 						 <a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a> <t/>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Mathematics Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Science Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> ICt Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Commerce Quiz... </a>
 						
 						</h5>
 						</div>
@@ -118,13 +118,13 @@ function Home() {
 						<img src={quiz }  height="20%" width="10%" alt="img1"/>
 						 <a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a> <t/>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Mathematics Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Science Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> ICT Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Commerce Quiz... </a>
 						
 						</h5>
 						</div>
@@ -136,13 +136,13 @@ function Home() {
 						<img src={quiz }  height="20%" width="10%" alt="img1"/>
 						 <a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a> <t/>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Mathematics Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Science Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> ICT Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Commerce Quiz... </a>
 						
 						</h5>
 						</div>
@@ -154,13 +154,13 @@ function Home() {
 						<img src={quiz }  height="20%" width="10%" alt="img1"/>
 						 <a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a> <t/>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Mathematics Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Science Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> ICT Quiz... </a>
 						<img src={quiz} height="20%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Commerce Quiz... </a>
 						
 						</h5>
 						</div>
