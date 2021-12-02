@@ -139,7 +139,7 @@ function AboutUs() {
 						Q-Smart<br/>
 						A.M.A.U.Adhikari<br/>
                         No :465/1,<br />
-                        Nadalagamuwa dakuna<br />
+                        Nadalagamuwa South<br />
                         Wadumunnegedara.<br />
                         <i className="fa fa-phone"></i>: +94 705988366<br />
                         <i className="fa fa-envelope"></i>: <a href="amilaupendra5@gmail.com">amilaupendra5@gmail.com</a>
