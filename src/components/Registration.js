@@ -9,7 +9,7 @@ function Registration() {
         <div className="reg-container" style={{backgroundImage: 'url('+allbg+')'}}>
             
 
-            <h2>Registration For Our services </h2>
+            <h2>Registration For Q-Smart </h2>
 
 			<form >
 				<label>Full Name : </label>
@@ -18,12 +18,29 @@ function Registration() {
 				<label>Email Address :</label>
 				<input type="text"/>
 
-                <label> Service</label>
-				WEB DEVELOPMENT SERVICES <input type="radio" name="year" label="1st year"/>
-                MOBILE APP DEVELOPMENT SERVICES <input type="radio" name="year" label="2nd year"/>
-                WEB DEVELOPMENT & MOBILE APP DEVELOPMENT SERVICES <input type="radio" name="3year" label="2nd year"/>
-                OTHER <input type="radio" name="year" label="3rd yeear"/>
+				<label>School</label>
+				<input type="text"/>
+
+				<label>Grade</label>
+				<input type="text"/>
+
+				
+
+                <label> Subject</label>
+				ENGLISH <input type="radio" name="year" label="1st year"/>
+                MATHEMATICS <input type="radio" name="year" label="2nd year"/>
+                SCIENCE <input type="radio" name="3year" label="2nd year"/>
+                ICT <input type="radio" name="year" label="3rd yeear"/>
+				COMMERCE <input type="radio" name="year" label="3rd yeear"/>
                 
+				<label>username</label>
+				<input type="text"/>
+
+				<label>password</label>
+				<input type="text"/>
+				
+				<label>confirm password</label>
+				<input type="text"/>
 
 				<label>Any comment</label>
 				<textarea type="text"/>
@@ -33,6 +50,9 @@ function Registration() {
 
 				<button>Register Now</button>
 			</form>
+
+			<br/>
+			<br/>
 
 			<footer>
 			<div className="footer-container" >
