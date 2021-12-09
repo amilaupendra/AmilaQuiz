@@ -22,13 +22,13 @@ function Nav() {
 				</div>
 
 				<div className="left-menu">
-					<Link to="/about" className="button-container">
+					<Link to="/LeaderBoard" className="button-container">
 						Leaderboard
 					</Link>
 				</div>
 
 				<div className="left-menu">
-					<Link to="/contact" className="button-container">
+					<Link to="/Signin" className="button-container">
 						Sign in
 					</Link>
 				</div>

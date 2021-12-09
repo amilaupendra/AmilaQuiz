@@ -1,6 +1,5 @@
 import MyCard from './MyCard';
 import useFetch from './useFetch';
-import Logo from '../img/logo1.png';
 import {Carousel} from 'react-bootstrap';
 import img1 from "../img/about1.jpg";
 import img2 from "../img/about2.jpg";
@@ -9,8 +8,9 @@ import img4 from "../img/about4.jpg";
 import img5 from "../img/about5.jpg";
 import quiz from "../img/quiz.png";
 import allbg from "../img/allbg.jpg";
-import googleplay from "../img/googleplay.png";
-import appstore from "../img/appstore.png";
+import FooterComponent from './footerComponent';
+
+
 function Home() {
 
 	const name="amila";
@@ -25,7 +25,7 @@ function Home() {
                     <img src={img1} height="50%" width="100%" alt="img1"/>
                     <figcaption>
                     <h1>WELCOME TO Q-Smart</h1>
-                    <p>whether you plan or crem, find your study jam.</p>
+                    <p>Knowledge is the dawn of your future world. Let's learn</p>
 					
 					
 					
@@ -58,7 +58,7 @@ function Home() {
                     <img src={img4} height="50%" width="100%" alt="img4"/>
                     <figcaption>
                     <h1>WELCOME TO Q-Smart</h1>
-                    <p>whether you plan or crem, find your study jam.</p>
+                    <p>Knowledge is the dawn of your future world. let's learn</p>
 					</figcaption>
                     
 					</figure>
@@ -80,15 +80,15 @@ function Home() {
 						<div  className="subjects" style={{backgroundImage: 'url('+img1+')'}}>
 							<h5>
 						<img src={quiz }  height="40%" width="10%" alt="img1"/>
-						 <a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz... </a> <t/>
+						 <a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> English Quiz </a> <t/>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Mathematics Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Mathematics Quiz </a>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Science Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Science Quiz </a>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> ICT Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> ICT Quiz </a>
 						<img src={quiz} height="40%" width="10%" alt="img1"/>
-						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Commerce Quiz... </a>
+						<a href="https://youtube.com/playlist?list=PLK1fnte3Gz-jFNI9JEqy6sv2RAmu0eA3q"> Commerce Quiz </a>
 						
 						</h5>
 						</div>
@@ -184,43 +184,10 @@ function Home() {
 				</div>
 				<br/>
 				<br/>
-			<footer>
-			<div className="footer-container" >
-			<div className="right-menu">
-				<div className="logo">
-						<img src={Logo} alt="Logo" />
-					</div>
-					
-				</div>
-				<div className="left-menu">
-					
-					<hr/>
-                
-                    <address>
-						Q-Smart<br/>
-						A.M.A.U.Adhikari<br/>
-                        No :465/1,<br />
-                        Nadalagamuwa dakuna<br />
-                        Wadumunnegedara.<br />
-                        <i className="fa fa-phone"></i>: +94 705988366<br />
-                        <i className="fa fa-envelope"></i>: <a href="amilaupendra5@gmail.com">amilaupendra5@gmail.com</a>
-						<br/>
-						<br/>
-                    </address>
-					<br/>
-					<br/>
-				</div>
-				
-					<div className="logo1">
-						<img src={googleplay} alt="Logo" width="60%" height="10%" />
-					</div>
-					<div className="logo1">
-						<img src={appstore} alt="Logo" width="110%" height="10%" />
-					</div>
-				
-				
-            </div>
-			</footer>
+				<footer>
+					<FooterComponent/>
+				</footer>
+			
 			
 		</div>
 

@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Nav from './components/Nav';
 import NewBlog from './components/NewBlog';
 import Blog from './components/Blog';
-import AboutUs from './components/AboutUs';
+import LeaderBoard from './components/LeaderBoard';
 import Registration from './components/Registration';
 import SignIn from './components/SignIn';
 
@@ -22,15 +22,15 @@ function App() {
 					<Blog />
 				</Route>
 
-				<Route path="/about">
-					<AboutUs />
+				<Route path="/LeaderBoard">
+					<LeaderBoard />
 				</Route>
 
 				<Route path="/reg">
 					<Registration />
 				</Route>
 
-				<Route path="/contact">
+				<Route path="/Signin">
 					<SignIn />
 				</Route>
 
