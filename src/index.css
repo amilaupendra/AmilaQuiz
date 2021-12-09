@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	color: rgb(0, 0, 0);
 	background-color:rgb(45, 85, 92);
@@ -67,10 +67,10 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	font-weight: 600;
+	font-weight: 300;
 }
 .left-menu a {
-	margin-left: 15px;
+	margin-left: 5px;
 	cursor: pointer;
 	text-decoration: none;
 	color: rgb(241, 235, 235);
@@ -461,6 +461,7 @@ form textarea:focus {
 	text-decoration: none;
 	color: rgb(238, 230, 230);
 }
+
 
 
 .add-post .footer-container {
