@@ -1,14 +1,12 @@
 import React from 'react'
-import Logo from '../img/logo1.png';
 import {Carousel} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import allbg from "../img/allbg.jpg";
 import cover from "../img/cover.jpeg";
-import googleplay from "../img/googleplay.png";
-import appstore from "../img/appstore.png";
+import FooterComponent from './footerComponent';
 
 
-function AboutUs() {
+function LeaderBoard() {
     return (
         <div className="about-image" style={{backgroundImage: 'url('+allbg+')'}}> 
         
@@ -22,7 +20,7 @@ function AboutUs() {
                     
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img src={cover} height="400px" width="100%" alt="img1"/>
+                    <img src={ cover} height="400px" width="100%" alt="img1"/>
                     
                 </Carousel.Item>
                 </Carousel>  
@@ -117,52 +115,22 @@ function AboutUs() {
                     <h2>mathematics </h2>
                 </Carousel.Item>
             </Carousel>
-            
+
+            <hr/>
             <hr/>
             
-            <hr/>
-            
-            
+
+          
+
             <footer>
-			<div className="footer-container" >
-			<div className="right-menu">
-				<div className="logo">
-						<img src={Logo} alt="Logo" />
-					</div>
-					
-				</div>
-				<div className="left-menu">
-					
-					<hr/>
-                
-                    <address>
-						Q-Smart<br/>
-						A.M.A.U.Adhikari<br/>
-                        No :465/1,<br />
-                        Nadalagamuwa South<br />
-                        Wadumunnegedara.<br />
-                        <i className="fa fa-phone"></i>: +94 705988366<br />
-                        <i className="fa fa-envelope"></i>: <a href="amilaupendra5@gmail.com">amilaupendra5@gmail.com</a>
-						<br/>
-						<br/>
-                    </address>
-					<br/>
-					<br/>
-				</div>
-				
-					<div className="logo1">
-						<img src={googleplay} alt="Logo" width="60%" height="10%" />
-					</div>
-					<div className="logo1">
-						<img src={appstore} alt="Logo" width="110%" height="10%" />
-					</div>
-				
-				
-            </div>
-			</footer>
+              <FooterComponent/>
+            </footer>
+            
+            
+ 
         </div>
         
     )
 }
 
-export default AboutUs
+export default LeaderBoard;
